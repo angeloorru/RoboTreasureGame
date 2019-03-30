@@ -1,0 +1,238 @@
+@CHARSET "ISO-8859-1";
+
+body {
+    background: #f5efe6;
+    color: rgb(85, 85, 85);
+    font-family: helvetica, arial, sans-serif;
+    font-size: 12px;
+}
+
+#wrapper {
+    width: 50%;
+    margin: 0px auto;
+    min-height:700px;
+}
+
+#mainDiv {
+    margin: 0px auto;
+    box-shadow: 0px 10px 10px #AAA;
+    background-color: #ffffff;
+    width: 100%;
+    min-height: 700px;
+}
+
+#headerDiv {
+    min-height: 40px;
+    width: 100%;
+    margin: auto;
+}
+
+#titleSpan {
+    min-width: 10%;
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px 0px 0px 10px;
+    color: #1c5c76;
+}
+
+#titleDataSpan {
+    min-width: 10%;
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px 10px 0px 0px;
+    text-align: center;
+    color: #1c5c76;
+}
+
+#contentDiv {
+    margin: 5px auto;
+    width: 100%;
+    min-height: 600px;
+    border-bottom: 2px solid #dedede;
+}
+
+.myButton {
+    -moz-box-shadow: inset 0px 0px 50px -10px #ffe0b5;
+    -webkit-box-shadow: inset 0px 0px 50px -10px #ffe0b5;
+    box-shadow: inset 0px 0px 50px -10px #ffe0b5;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #fbb450 ), color-stop(1, #f89306) );
+    background: -moz-linear-gradient(top, #fbb450 5%, #f89306 100%);
+    background: -webkit-linear-gradient(top, #fbb450 5%, #f89306 100%);
+    background: -o-linear-gradient(top, #fbb450 5%, #f89306 100%);
+    background: -ms-linear-gradient(top, #fbb450 5%, #f89306 100%);
+    background: linear-gradient(to bottom, #fbb450 5%, #f89306 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fbb450', endColorstr='#f89306', GradientType=0 );
+    background-color: #fbb450;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #c97e1c;
+    display: inline-block;
+    color: #ffffff;
+    font-family: Trebuchet MS;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 3px 15px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #8f7f24;
+}
+
+    .myButton:hover {
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f89306 ), color-stop(1, #fbb450) );
+        background: -moz-linear-gradient(top, #f89306 5%, #fbb450 100%);
+        background: -webkit-linear-gradient(top, #f89306 5%, #fbb450 100%);
+        background: -o-linear-gradient(top, #f89306 5%, #fbb450 100%);
+        background: -ms-linear-gradient(top, #f89306 5%, #fbb450 100%);
+        background: linear-gradient(to bottom, #f89306 5%, #fbb450 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f89306', endColorstr='#fbb450', GradientType=0 );
+        background-color: #f89306;
+    }
+
+#playBtn {
+
+  //  float:right;
+
+}
+
+.playBtnBar {
+    width:100%;
+    min-height:15px;
+    float: left;
+	text-align:center;
+}
+
+.cancelBtn {
+    -moz-box-shadow: inset 0px 0px 50px -10px #d8d8d8;
+    -webkit-box-shadow: inset 0px 0px 50px -10px #d8d8d8;
+    box-shadow: inset 0px 0px 50px -10px #d8d8d8;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #d8d8d8 ), color-stop(1, #f89306) );
+    background: -moz-linear-gradient(top, #fbb450 5%, #f89306 100%);
+    background: -webkit-linear-gradient(top, #fbb450 5%, #f89306 100%);
+    background: -o-linear-gradient(top, #fbb450 5%, #f89306 100%);
+    background: -ms-linear-gradient(top, #fbb450 5%, #f89306 100%);
+    background: linear-gradient(to bottom, #fbb450 5%, #f89306 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fbb450', endColorstr='#f89306', GradientType=0 );
+    background-color: #fbb450;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #c97e1c;
+    display: inline-block;
+    color: #ffffff;
+    font-family: Trebuchet MS;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 3px 15px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #8f7f24;
+    margin-left: 10px;
+}
+
+    .cancelBtn:hover {
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f89306 ), color-stop(1, #fbb450) );
+        background: -moz-linear-gradient(top, #f89306 5%, #fbb450 100%);
+        background: -webkit-linear-gradient(top, #f89306 5%, #fbb450 100%);
+        background: -o-linear-gradient(top, #f89306 5%, #fbb450 100%);
+        background: -ms-linear-gradient(top, #f89306 5%, #fbb450 100%);
+        background: linear-gradient(to bottom, #f89306 5%, #fbb450 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f89306', endColorstr='#fbb450', GradientType=0 );
+        background-color: #f89306;
+    }
+
+
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+#buttonDiv {
+    float: right;
+    margin-right: 15px;
+}
+
+.tbl {
+    width: 400px;
+    margin: 0px auto;
+    margin-top: 100px;
+}
+
+    .tbl tr td {
+        padding: 3px;
+        width: 50%;
+        text-align: center;
+    }
+
+    .tbl .inputfield {
+        width: 200px;
+        padding: 2px;
+        border-radius: 4px;
+    }
+
+.lbl {
+    font-weight: bold;
+}
+
+#logout {
+    text-align: right;
+    width: 740px;
+}
+
+
+#topheading {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.dropdown {
+    width: 150px;
+    border-radius: 4px;
+    padding: 2px;
+}
+
+#messageBar {
+    width: 100%;
+    float: left;
+    height: 20px;
+    background-color: #ffe0b5;
+    font-weight: bold;
+    text-align:center;
+}
+
+#gridArea {
+    width: 100%;
+    float: left;
+    overflow: auto;
+    margin: 0px auto;
+    min-height: 500px;
+}
+
+#grid {
+    border-collapse: collapse;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+
+    #grid tr td {
+        border: 2px solid #2d9db2;
+        width: 35px;
+        height: 35px;
+        background-color: #a6d9ee;
+        font-weight:bold;
+        font-size:25px;
+        text-align:center;
+    }
+	
+#scoreBoard{
+	display:none;
+	width:100%;
+}
+
+#scoreBoard table{
+	width:100%;
+    float: left;
+}

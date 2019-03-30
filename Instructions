@@ -1,0 +1,7 @@
+Using the keyboard the user can: 
+    place treasures - numbers between 1 to 9
+    obstacles can be placed throughout the board by pressing the letter 'o'
+    once ready select the cell you'd like position the player
+    finally, start the game
+    
+The player can move to collect the treasures using 'a', 'w', 'd', 'x'
