@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <title></title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+
+    <div id="wrapper">
+        <div id='headerDiv'>
+            <div id='titleSpan'>Treasure Game</div>
+        </div>
+        <div id='mainDiv'>
+            <div id='contentDiv'>
+
+                <div id="messageBar">
+                </div>
+				<!-- Make the score board -->
+				<div id="scoreBoard">
+					<table>
+						<tr>
+							<th>Rounds Played:</th>
+							<td id="rounds_played"></td>
+							
+							<th>User's Score:</th>
+							<td id="users_score"></td>
+							
+							<th>Computer's Score:</th>
+							<td id="computers_score"></td>
+						</tr>
+					
+					</table>
+				
+				</div>
+                
+                <div id="gridArea">
+                </div>
+                
+				<!-- Play and end game btns -->
+				
+				<div class="playBtnBar">
+                <input type="button" value="Play" class="myButton" id="playBtn" onclick="endSetup()" />
+				<input type="button" value="End Game" class="myButton" id="EndBtn" onclick="endPlay()" style="display:none"/>
+				
+				<!-- Rematch (refresh browser) and exit game (close browser) btns -->
+				<input type="button" value="   Rematch   " class="myButton" id="refreshBtn" onclick="location.reload(true);" />
+                </div>
+    
+            </div>
+        </div>
+    </div>
+</body>
+</html>
